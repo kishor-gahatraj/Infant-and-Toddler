@@ -1,0 +1,180 @@
+.custom-navbar {
+  background-color: black;
+}
+
+.custom-link {
+  color: #fff !important;
+}
+
+.custom-link:hover {
+  color: #dfe6e9 !important;
+}
+
+
+@media (max-width: 991.98px) {
+  .offcanvas-start {
+    width: 50% !important;
+    animation: slideIn 0.3s ease-out;
+  }
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0.3;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Background and link styling */
+.offcanvas {
+  background-color:black;
+  color: white;
+}
+
+.offcanvas .nav-link {
+  color: white;
+}
+
+.offcanvas .nav-link:hover {
+  color: #dfe6e9;
+}
+
+/* Close button on the left */
+.offcanvas-header {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.offcanvas .btn-close {
+  filter: invert(1);
+}
+.navbar-brand img {
+  max-width: 40px;
+  height: auto;
+  width: 100%;
+}
+
+/* Content Section with Background Image */
+.content-section {
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.content-section .container {
+  text-align: center; /* Center the text inside the container */
+  max-width: 80%;      /* Adjust the max-width of the content */
+}
+.content-section1 {
+  background-size: cover;        /* Ensures the image covers the entire section */
+  background-position: center;   /* Center the image */
+  display: flex;
+  justify-content: center;       /* Centers the content horizontally */
+  align-items: center;           /* Centers the content vertically */
+  color: black;                  /* Set text color to white for contrast */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Adds shadow for readability */
+}
+
+.content-section1 .container1 {
+  text-align: center; /* Center the text inside the container */
+  max-width: 80%;      /* Adjust the max-width of the content */
+}
+.content-section1 .container2 {
+  margin-left: auto; /* Push content to the right */
+  margin-right: 50px; 
+  font-size: 1.7rem; /* Increase font size */
+  color:slateblue; /* Set link color (change if needed) */
+  text-decoration: underline; /* Underline */
+  transition: color 0.3s;
+}
+.dropdown-menu-left-shift {
+  left: auto !important;
+  right: 0;
+}
+
+.infant-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.section-paragraph {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.section-image {
+  width: 100%;
+  max-width: 500px; 
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.sectionPara{
+  margin: 0 auto;              /* Center horizontally */
+  max-width: 1300px;            /* Limit content width */
+  padding: 0 30px;             /* Left and right gap */
+  text-align: justify; 
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-link.active {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: #5558eb !important; /* Bootstrap warning color */
+}
+.dropdown-menu {
+  background-color: #343a40; /* dark gray background */
+  border: none;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #f8f9fa; /* light text */
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+.dropdown-menu .dropdown-item.active {
+  background-color: #0d6efd;
+  color: white;
+}
