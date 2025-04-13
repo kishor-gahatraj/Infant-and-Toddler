@@ -58,17 +58,17 @@ document.getElementById("navbar").innerHTML = `
               </a>
               <ul class="dropdown-menu dropdown-menu-left-shift">
                 <li>
-                  <a class="dropdown-item" href="#"
+                  <a class="dropdown-item" href="Supportingcognitivedevelopment.html"
                     >Supporting Cognitive Development</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#"
+                  <a class="dropdown-item" href="fosteringSocialDevelopment.html"
                     >Fostering Social Development</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#"
+                  <a class="dropdown-item" href="FosteringEmotionalDevelopment.html"
                     >Fostering Emotional Development</a
                   >
                 </li>
@@ -78,11 +78,11 @@ document.getElementById("navbar").innerHTML = `
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#"
+                  <a class="dropdown-item" href="PreceptualDevandFiveSenses.html"
                     >Perceptual Development and the Five Senses</a
                   >
                 </li>
-                <li><a class="dropdown-item" href="#">References</a></li>
+                <li><a class="dropdown-item" href="References.html">References</a></li>
               </ul>
             </li>
           </ul>
@@ -131,10 +131,13 @@ document.getElementById("navbar").innerHTML = `
             <a class="nav-link" href="PromtingInfant.html">Promoting Infant</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Fostering Social Development</a>
+            <a class="nav-link" href="Supportingcognitivedevelopment.html">Supporting Cognitive Development</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Fostering Emotional Development</a>
+            <a class="nav-link" href="fosteringSocialDevelopment.html">Fostering Social Development</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="FosteringEmotionalDevelopment.html">Fostering Emotional Development</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="FacilitatingLanandlitDev.html"
@@ -142,11 +145,11 @@ document.getElementById("navbar").innerHTML = `
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="PreceptualDevandFiveSenses.html"
               >Perceptual Development and the Five Senses</a
             >
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">References</a></li>
+          <li class="nav-item"><a class="nav-link" href="References.html">References</a></li>
         </ul>
       </div>
     </div>
@@ -156,7 +159,7 @@ document.getElementById("footer").innerHTML = `
 <footer class="footer bg-dark text-white py-4 mt-5">
       <div class="container text-center">
         <h3>About Us | Contact Information</h3>
-        <h4>Krishala Gahatraj | Second | Third | Fourth</h4>
+        <h4>KRISHALA GAHATRAJ | ROSHANA KHATRI | NGUYEN TRAN </h4>
         <p class="mb-1">&copy; 2025 Infant and Toddler Education. All rights reserved.</p>
         <p class="small">
           Designed with ❤️ for educational purposes.
